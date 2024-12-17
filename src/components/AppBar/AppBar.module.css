@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f6ebf3;
+  }
+  
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .authContainer,
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: black;
+  }
+  
+  
+  @media (min-width: 600px) {
+    .header {
+      flex-direction: row;
+      padding: 12px 20px;
+    }
+  
+    .navContainer {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .authContainer,
+    .userContainer {
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
+  
+  
+  @media (min-width: 960px) {
+    .header {
+      padding: 20px 40px;
+      gap: 0;
+    }
+  
+    .navContainer {
+      gap: 30px;
+    }
+  
+    .authContainer,
+    .userContainer {
+      gap: 20px;
+    }
+  }
